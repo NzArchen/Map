@@ -1,0 +1,56 @@
+*{
+	margin:0;
+}
+#map{
+	height:90vh;
+	border:1px red solid;
+}
+
+.bus-stop{
+	background-color: #FFCE1F;
+	border-radius: 50px;
+	display:flex; 
+	
+}
+
+/*for bus icon*/
+.bus-stop>div:nth-child(2){  
+	flex: 0 0 30px;
+	height: 30px;
+	background-image:url(bus.svg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+/*for buslabel*/
+
+.bus-stop>div:nth-child(1){
+	flex: 1 0 0;
+	padding-top: 9px;
+	padding-left: 12px;
+	color:white;
+	line-height: 11px;
+	
+}
+
+.picon img{
+	max-height: 100px;
+	
+}
+
+.supermarket{
+	width:150px; 
+	text-align: center;
+}
+
+.market{
+	margin: auto;
+}
+
+.market img{
+	max-height: 100px;
+
+}
